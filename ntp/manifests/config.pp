@@ -1,4 +1,4 @@
-class ntp:::config inherits ntp {
+class ntp::config inherits ntp {
 	file {'/etc/ntp.conf':
 					ensure => file,
 					owner => 'root',
